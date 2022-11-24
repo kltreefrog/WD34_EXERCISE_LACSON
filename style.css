@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+html,body{
+    margin:0;
+    background:  rgb(39, 36, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar{
+    background: rgb(27, 27, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.navigation-bar h1{
+    font-family: 'Kolker Brush';
+    padding: 0px 20px;
+    color:rgb(255, 165, 30);
+    border:solid rgb(255, 165, 30) 2px;
+    border-radius: 50px;
+    background: rgb(39, 36, 32);
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+
+.nav-link li{
+    padding: 10px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: rgb(255, 165, 30);
+    font-family: 'Rock Salt';
+    padding: 30px;
+}
+
+.nav-link a:hover{
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.banner{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.overlay{
+    position:absolute;
+    background: rgb(39, 36, 32, 0.4);
+    width:100%;
+    height:100%;
+}
+
+.banner-content{
+    color:rgb(255, 165, 30);
+    position:absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-weight: normal!important;
+    font-size: 200px;
+    font-family: 'Kolker Brush';
+    border:solid rgb(255, 165, 30) 10px;
+    border-radius: 100px;
+    padding: 0px 90px;
+}
+
+.btn-transparent{
+    border:solid white 2px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    cursor:pointer;
+}
+
+.btn-transparent:hover{
+    background: white;
+    color:black;
+    transition: 0.3s;
+}
+
+.table{
+    border: rgb(255, 165, 30) 10px;
+    color:Black;
+    align-items: center;
+    text-align: center;
+}
+
+.table table{
+    color:rgb(255, 165, 30);
+    background-color:  rgb(39, 36, 32, 0.6);
+    width: 100%;
+    border: 5px;
+    font-family: 'Rock Salt';
+}
+
+.table h1{
+    color:rgb(255, 165, 30);
+    font-weight: normal;
+    font-family: 'Rock Salt';
+
+}
+
+
+.aboutus{
+    margin:auto;
+    width:720px;
+    text-align: center;
+}
+
+.aboutus h1{
+    color:rgb(255, 165, 30);
+    font-weight: normal;
+    font-family: 'Rock Salt';
+}
+
+.aboutus p{
+    color:white;
+}
+
+.menu{
+    width: 720px;
+    margin: auto;
+    text-align: center;
+    background-color:  rgb(39, 36, 32, 0.6);
+    width: 60%;
+    padding: 40px;
+}
+
+.menu h1{
+    color: rgb(255, 165, 30);
+    font-weight: normal;
+    font-family: 'Rock Salt';
+}
+
+.menu p{
+    color:white;
+}
+
+.menu-item{
+    width:50%;
+    text-align:left;
+}
+.menu-item-container{
+    display:flex;
+    flex-wrap:wrap; 
+}
+
+.menu-item-description{
+    padding:20px;
+}
+
+.menu-cover{
+    background: url("img/menu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+}
+
+.contact{
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact p{
+    color: white;
+    margin-bottom: 0px;
+}
+
+.contact h1{
+    color: rgb(255, 165, 30);
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.input-form{
+    background: none;
+    border: none;
+    border: 2px solid  rgb(255, 165, 30);
+    width:100%;
+    margin: 10px 2px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-textarea{
+    background: none;
+    border: none;
+    border: 2px solid  rgb(255, 165, 30);
+    width:100%;
+    margin: 10px 2px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.submit-btn{
+    background: none;
+    border: solid white 1px;
+    padding: 10px;
+    color:  white;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.submit-btn:hover{
+    transition: 0.5s;
+    border: solid rgb(255, 165, 30) 1px;
+    background: rgb(255, 165, 30);
+    color: black;
+}
+
+.footer{
+    padding: 10px;
+    color:white;
+    background: rgb(27, 27, 26);
+}
